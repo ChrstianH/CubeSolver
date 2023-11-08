@@ -9,7 +9,7 @@ $cube = new Cube();
     <button type="submit">Perform Scramble!</button>
 </form>
 <?php
-if(($_POST) != "") {
+if(!isset($_POST)) {
     $cube->performScramble($_POST['scramble']);
 
     var_dump($cube->getStatus());

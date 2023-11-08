@@ -24,7 +24,7 @@ class Cube
     }
 
     /**
-     * @param String $scramble
+     * @param string $scramble
      * @return void
      */
     public function performScramble(string $scramble): void
